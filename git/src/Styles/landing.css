@@ -1,0 +1,228 @@
+/* navbar  */
+
+
+.l-navbar{
+    /* border: 2px solid red; */
+    height: 100px;
+    display: flex;
+    padding: 0% 15%;
+    justify-content: space-between;
+    background-color: rgba(25, 11, 37, 1);
+
+}
+
+.gitsymbol{
+    height: 80px;
+    margin-top: 4%;
+}
+
+.btns{
+    display: flex;
+    gap: 8%;
+    /* border: 2px solid red; */
+    width: 30%;
+    align-items: center;
+}
+.btns button{
+    height: 45%;
+    width: 70%;
+    background-color: rgba(7, 200, 88, 1);
+    font-size: 18px;
+    color: #fff;
+    /* border-radius: 3px; */
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+}
+
+
+
+
+
+/* --------------------------- */
+
+
+.girl-image{
+    border: 0px solid green;
+}
+
+/* for every section */
+
+#section-parent{
+    /* border: 4px solid blue; */
+    margin: 0 15% 5% 15%;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    /* background-color: red; */
+    
+}
+
+.section:nth-child(1){
+    margin-top: 5%;
+}
+
+/* section 1 */
+
+.girl-image{
+    /* border: 2px solid red; */
+    height: 500px;
+    margin-left: 5%;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.s1-texts{
+    width: 50%;
+}
+.s1-texts h1, p, button{
+    border: 0px solid rgb(93, 17, 93);
+}
+.s1-texts h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+.s1-texts h1:nth-child(1){
+    margin-top: 8%;
+    margin-left: -12%;
+}
+.s1-texts h1:nth-child(3){
+    margin-left: 12%;
+}
+
+.s1-texts>p{
+    margin-top: 8%;
+    font-weight: 600;
+    text-align: center;
+    font-size: medium;
+}
+
+.s1-texts>div{
+    margin-top: 8%;
+    margin-left: 30%;
+    height: 10%;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0 2%;
+    border-radius: 5px;
+    background-color: rgba(7, 200, 88, 1);
+    color: #fff;
+    /* padding-top: -5%; */
+    text-align: center;
+
+    display: flex;
+    gap: 10%;
+    cursor: pointer;
+    justify-content: space-around;
+
+
+}
+.s1-texts>div:hover{
+    background-color: rgb(7, 219, 95);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+.s1-texts>div>p{
+    font-size: 25px;
+    margin-top: 6%;
+}
+
+#right-arrow{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+    
+}
+
+/* section 2 */
+
+.folderimage{
+    /* border: 2px solid green; */
+    height: 450px;
+    width: 100%;
+}
+
+.s2-texts{
+    width: 60%;
+}
+.s2-texts>p{
+    padding: 30% 10% 30% 15%;
+    width: 60%;
+    margin-left: 5%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* section 3 */
+
+.statusbar{
+    /* border: 2px solid red; */
+    height: 380px;
+    margin: 2% 0 2% 15%;
+}
+
+.s3-texts > p:nth-child(1){
+    width: 60%;
+    margin: 12% 10% 5% 20%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.s3-texts > p:nth-child(2){
+    width: 60%;
+    margin: 5% 10% 5% 20%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* footer */
+
+#l-footer{
+    height: 200px;
+    background-color : #000;
+    padding-bottom: 2%;
+}
+
+.git_black_symbol{
+    /* border: 2px solid yellow; */
+    height: 90px;
+    margin: 2% 10% 1% 10%;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    color: #fff;
+    margin: 0% 10%;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    width: 60%;
+    text-align: end;
+    align-items: end;
+    margin-left: -2%;
+}
+.bottom-footer>div:nth-child(2){
+    width: 15%;
+}
+
+#globe{
+    margin-right: 3%;
+    margin-top: 1%;
+    text-align: center;
+    align-items: center;
+}
+#cc{
+    margin-right: 3%;
+    text-align: center;
+    align-items: center;
+    margin-top: 1%;
+    text-align: end;
+}
