@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Landing from './Components/Landing';
+// import Landing from './Components/Landing';
+import AllRoutes from './Routes/AllRoutes';
 
 function App() {
   return (
     <div className="App">
       {/* <h1>react app initialization</h1> */}
-      
-      <Landing />
+
+      {/* <Landing /> */}
+      <AllRoutes />
     </div>
   );
 }

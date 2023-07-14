@@ -120,6 +120,11 @@
 
 
 }
+#get-into{
+    text-decoration: none;
+    /* border: 2px solid; */
+    color: #fff;
+}
 .s1-texts>div:hover{
     background-color: rgb(7, 219, 95);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

@@ -8,6 +8,7 @@ import git_black from "../Images/git_s_black.png"
 import { BsGlobe2 } from "react-icons/bs";
 import { BsCCircle } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom"
 
 
 
@@ -36,9 +37,11 @@ function Landing() {
                             <h1>Analyze</h1>
                             <p>a powerful web application that enables users to easily exploreand discover repositories and user profiles on GitHub</p>
                             <div>
-                                <p>let's Explore</p>
-                                <p><BsArrowRight id="right-arrow"/></p>
-                                
+                                <p>
+                                    <Link  id="get-into" to='/search'>let's Explore</Link>
+                                </p>
+                                <p><BsArrowRight id="right-arrow" /></p>
+
                             </div>
 
                         </div>
@@ -88,7 +91,7 @@ function Landing() {
                         </div>
                         <div>
                             <p> <span><BsGlobe2 id="globe" /></span>India</p>
-                            <p><span><BsCCircle id="cc"/></span>2023 Github_socials</p>
+                            <p><span><BsCCircle id="cc" /></span>2023 Github_socials</p>
                         </div>
                     </div>
 
